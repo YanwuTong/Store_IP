@@ -1,5 +1,4 @@
-//prog1A.cpp
-//written by Yanwu Tong for cs130a
+//written by Yanwu Tong
 
 #include "storeIP.h"
 #include <sstream>

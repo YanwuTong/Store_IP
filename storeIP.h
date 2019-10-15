@@ -1,5 +1,5 @@
 //storeIP.h
-//written by Yanwu Tong for cs130a
+//written by Yanwu Tong
 
 #ifndef STOREIP_H
 #define STOREIP_H

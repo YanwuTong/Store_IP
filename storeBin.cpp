@@ -1,4 +1,3 @@
-//storeBin.cpp
 //written by Yanwu Tong
 
 #include "storeBin.h"
