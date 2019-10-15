@@ -1,0 +1,41 @@
+//prog1B.cpp
+//written by Yanwu Tong
+
+#include "storeBin.h"
+#include <sstream>
+#include <ctype.h>
+
+using namespace std;
+
+int main(){
+
+	storeBin table;
+
+
+
+
+	
+	table.power = table.findPower(256);
+	cout << table.power << endl; 
+	int x = table.findPrime(256);
+	cout << x << endl;
+	table.setSize(x);
+
+	cout << table.hash("46.55.66.77") << endl; 
+
+
+	/*
+	table.delet("161.178.251.23");
+	table.insert("64.198.68.200");
+	table.insert("128.22.243.216");
+	table.stat();
+	*/
+	
+	for(size_t i = 0; i < table.a.size(); i++){
+		cout << table.a[i] << endl;
+	}
+
+
+
+	return 0;
+}
